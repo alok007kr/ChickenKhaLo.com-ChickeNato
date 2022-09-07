@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container{
+  box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,
+    rgba(0,0,0,0.93) 0px 30px 60px -30px;
+}
+.logo{
+  margin-left: 2rem;
+  margin-top: 10px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link{
+  margin-top: 1.8rem;
+}
+.nav-link ul{
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  align-items: center;
+}
+.nav-link ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-link ul li a:hover{
+  color: green;
+}
+
+.nav-cart{
+  display: flex;
+  margin-right: 2rem;
+  margin-top: 1.8rem;
+  gap: 28px;
+}
+.nav-cart .cart-img{
+  -webkit-filter: invert(1);
+}
+
+.hero{
+  display: flex;
+  margin: 2rem;
+}
+.hero .text{
+  margin-top: 8rem;;
+}
+.hero .text h3{
+  color: green;
+  font-size: 2rem;
+}
+.hero .text h1{
+  color: black;
+  font-size: 3rem;
+}
+.hero .text p{
+  margin-top: 20px;
+  color: gray;
+  line-height: 20px;
+}
+.hero .hero-btn{
+  margin-top: 2rem;
+  padding: 10px 15px;
+  background: green;
+  border: 1px solid green;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.hero .hero-btn:hover{
+  background: white;
+  color: green;
+  border: 1px solid black;
+}
+.hero-container img{
+  margin-left: 8rem;
+  height: 500px;
+  width: 500px;
+}
+section .hero-point{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+section .hero-point .point1{
+  height: 10px;
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+section .hero-point .point1:hover, point1:active{
+  background: green;
+}
+
+.dish-cont{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display : grid;
+  grid-template-columns: auto auto auto auto; 
+  row-gap: 10px;
+}
+.dish h2{
+  text-align: center;
+  color: green;
+  margin-top: 3rem;
+}
+.dish h1{
+  margin-top: 1rem;
+  text-align: center;
+}
+.dish-container{
+  margin-top: 2rem;
+  height: 270px;
+  width: 280px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.dish-container img {
+  margin-top: 20px;
+  margin-left: 4rem;
+  height: 150px;
+  width: 150px;
+}
+.dish-container h3{
+  text-align: center;
+}
+.dish-container button{
+  margin-left: 5.5rem;
+  margin-top: 1rem;
+  padding: 10px;
+  background: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 3px;
+  cursor : pointer;
+}
+.dish-container button:hover{
+  background: green;
+  color: black;
+}
+
+.menu {
+  margin-top : 4rem;
+}
+.menu .grid-cont{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.menu .container{
+  margin-top: 2rem;
+  height: 270px;
+  width: 280px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.menu .container img{
+  height: 200px;
+  width: 278px;
+  border-radius: 10px;
+}
+.menu .container p{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.menu h2{
+  text-align: center;
+  color: green;
+  margin-top: 3rem;
+}
+.menu h1{
+  margin-top: 1rem;
+  text-align: center;
+}
+.menu .search{
+  margin-left: 30rem;
+  margin-top: 2rem;
+  
+}
+.menu .search input{
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid green;
+}
+.menu .search .chicken{
+  padding: 10px 15px;
+  margin-left: 2rem;
+  background: green;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid green;
+}
+.menu .search .chicken:hover{
+  background: white;
+  color: green;
+  border: 1px solid green;
+}
+.grid-cont{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display : grid;
+  grid-template-columns: auto auto auto auto; 
+  row-gap: 10px;
+}
+
+.review h2{
+  text-align: center;
+  color: green;
+  margin-top: 3rem;
+}
+.review h1{
+  margin-top: 1rem;
+  text-align: center;
+}
+.review .cont{
+  margin-top: 2rem;
+  height: 270px;
+  width: 280px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.review .cont img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-left: 5rem;
+}
+.review .cont .name{
+  text-align: center;
+  margin-top: 1rem;
+}
+.review .cont p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.grid-container{
+  display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  gap: 2rem;
+}
+.footer{
+  margin-top: 4rem;
+  background: antiquewhite;
+}
+.footer .space-aro{
+  display: flex;
+  justify-content: space-around;
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer li a{
+  color: black;
+  text-decoration: none;
+}
+.footer .copyright{
+  text-align: center;
+  margin-top: 2rem;
+}
+.footer .copyright span{
+  color: green;
+}
+
+.hamburger{
+  float: right;
+  margin-top: 1rem;
+  display: none;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px){
+  .hamburger{
+    float: right;
+    display: block;
+  }
+  .nav-link,.nav-cart{
+    display: none;
+  }
+}
